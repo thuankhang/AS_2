@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImageView_width">47dp</dimen>
+    <dimen name="ImageView_height">47dp</dimen>
+    <dimen name="Text_width">167dp</dimen>
+    <dimen name="Text_height">47dp</dimen>
+    <dimen name="Button_width">240dp</dimen>
+    <dimen name="Button_height">60dp</dimen>
+    <dimen name="ImageSperant">340dp</dimen>
+    <dimen name="Text1_absoluteY">445dp</dimen>
+    <dimen name="Text2_absoluteY">398dp</dimen>
+    <dimen name="Text_absoluteX">145dp</dimen>
+    <dimen name="Margin">8dp</dimen>
+
+</resources>

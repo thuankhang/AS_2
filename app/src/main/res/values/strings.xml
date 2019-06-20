@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SperantDemo</string>
-    <string name="test">Enter</string>
-    <string name="user"> User</string>
-    <string name="pass">***************</string>
+    <string name="Button_Enter">Enter</string>
+    <string name="Screen_LogIn_user"> User</string>
+    <string name="Screen_LogIn_password">***************</string>
+    <string name="Button_FTP">Forgot your password?</string>
 </resources>

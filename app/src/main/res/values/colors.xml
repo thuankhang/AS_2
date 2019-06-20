@@ -3,6 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="background">#008080</color>
-    <color name="textcolor">#FCFCFC</color>
+    <color name="ocean">#008080</color>
+    <color name="white">#FCFCFC</color>
+    <color name="denim">#203050</color>
 </resources>
