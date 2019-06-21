@@ -8,71 +8,100 @@
         android:background="@color/denim"
         tools:context=".MainActivity">
 
-    <Button android:layout_width="240dp" android:layout_height="60dp"
-            android:text="@string/Button_Enter"
+    <Button android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/button_enter"
             android:background="@color/ocean"
             android:textColor="@color/white"
-            android:layout_marginTop="@dimen/Margin"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="@dimen/Margin"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="@dimen/Margin" android:layout_marginStart="@dimen/Margin" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="@dimen/Margin" android:layout_marginRight="@dimen/Margin" app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintVertical_bias="0.832" android:id="@+id/button2"/>
+            android:layout_marginTop="@dimen/margin"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="@dimen/margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintVertical_bias="0.832"
+            android:id="@+id/button2"/>
 
     <EditText
-            android:layout_width="@dimen/Text_width"
-            android:layout_height="@dimen/Text_height"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
             android:inputType="textPersonName"
-            android:text="@string/Screen_LogIn_password"
+            android:text="@string/screen_login_password"
             android:textColor="@color/white"
             android:ems="10"
-            tools:layout_editor_absoluteY="@dimen/Text1_absoluteY" tools:layout_editor_absoluteX="@dimen/Text_absoluteX" android:id="@+id/editText5"/>
+            tools:layout_editor_absoluteY="@dimen/text1_absoluteY"
+            tools:layout_editor_absoluteX="@dimen/text_absoluteX"
+            android:id="@+id/editText5"/>
 
     <ImageView
-            android:layout_width="@dimen/ImageView_width"
-            android:layout_height="@dimen/ImageView_height" app:srcCompat="@mipmap/ic_launcher_iconlock"
+            android:layout_width="@dimen/imageicon_width"
+            android:layout_height="@dimen/imageicon_height"
+            app:srcCompat="@mipmap/ic_launcher_iconlock"
             android:id="@+id/imageView"
             app:layout_constraintBottom_toBottomOf="@+id/editText5"
             app:layout_constraintTop_toTopOf="@+id/editText5"
-            app:layout_constraintVertical_bias="0.0" app:layout_constraintEnd_toStartOf="@+id/editText5"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintEnd_toStartOf="@+id/editText5"
     />
 
     <EditText
-            android:layout_width="@dimen/Text_width"
-            android:layout_height="@dimen/Text_height"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
             android:inputType="textPersonName"
-            android:text="@string/Screen_LogIn_user"
+            android:text="@string/screen_login_user"
             android:textColor="@color/white"
             android:ems="10"
-            tools:layout_editor_absoluteY="@dimen/Text2_absoluteY" tools:layout_editor_absoluteX="@dimen/Text_absoluteX" android:id="@+id/editText"/>
+            tools:layout_editor_absoluteY="@dimen/text2_absoluteY"
+            tools:layout_editor_absoluteX="@dimen/text_absoluteX"
+            android:id="@+id/editText"/>
 
     <ImageView
-            android:layout_width="@dimen/ImageView_width"
-            android:layout_height="@dimen/ImageView_height" app:srcCompat="@mipmap/ic_launcher_iconuser"
+            android:layout_width="@dimen/imageicon_width"
+            android:layout_height="@dimen/imageicon_height"
+            app:srcCompat="@mipmap/ic_launcher_iconuser"
             android:id="@+id/imageView2"
-            app:layout_constraintBottom_toBottomOf="@+id/editText" app:layout_constraintTop_toTopOf="@+id/editText"
-            app:layout_constraintVertical_bias="1.0" app:layout_constraintEnd_toStartOf="@+id/editText"
+            app:layout_constraintBottom_toBottomOf="@+id/editText"
+            app:layout_constraintTop_toTopOf="@+id/editText"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintEnd_toStartOf="@+id/editText"
     />
 
     <TextView
-            android:text="@string/Button_FTP"
+            android:text="@string/button_forgot"
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView" android:layout_marginTop="@dimen/Margin"
-            app:layout_constraintTop_toBottomOf="@+id/button2" android:layout_marginBottom="@dimen/Margin"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="@dimen/Margin"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="@dimen/Margin" android:layout_marginEnd="@dimen/Margin"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="@dimen/Margin"
-            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.108"/>
+            android:id="@+id/textView"
+            android:layout_marginTop="@dimen/margin"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            android:layout_marginBottom="@dimen/margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/margin"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/margin"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.108"/>
 
     <ImageView
-            android:layout_width="@dimen/ImageSperant"
-            android:layout_height="@dimen/ImageSperant" app:srcCompat="@mipmap/ic_launcher_Sperant"
-            android:id="@+id/imageView3" android:layout_marginTop="@dimen/Margin"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="@dimen/Margin" android:layout_marginStart="@dimen/Margin" android:layout_marginBottom="@dimen/Margin"
-            app:layout_constraintBottom_toTopOf="@+id/editText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="@dimen/Margin" android:layout_marginRight="@dimen/Margin"/>
+            app:srcCompat="@mipmap/ic_launcher_Sperant"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="@dimen/margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            app:layout_constraintBottom_toTopOf="@+id/editText"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
